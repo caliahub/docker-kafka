@@ -1,4 +1,6 @@
-FROM registry.xyb2b.com.cn/base/jre:1.8.0_101
+FROM caliahub/jre:1.8.0_101
+
+MAINTAINER Calia "cnboycalia@gmail.com"
 
 ENV SCALA_VERSION=2.12 \
     KAFKA_VERSION=2.5.0 \
